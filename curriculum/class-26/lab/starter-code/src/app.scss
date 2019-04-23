@@ -1,0 +1,50 @@
+$background: blue;
+$color: white;
+
+Header {
+  h1 {
+    color: $color;
+    background: $background;
+    text-align: center;
+  }
+}
+
+div {
+  h4{
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  a {
+    background: $background;
+    color: $color;
+    padding: 1em 1.5em;
+    box-shadow: 0 5px 0 darkblue;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin:10px 10px;
+  }
+
+  a:hover {
+    background-color: #555;
+  }
+  
+  a:active {
+    background-color: black;
+  }
+  
+  a:visited {
+    background-color: #ccc;
+  }
+}
+
+Footer{
+  bottom: 0;
+  left:0;
+  position: fixed;
+  text-align: center;
+  background: $background;
+  color: $color;
+  width:100%;
+}
